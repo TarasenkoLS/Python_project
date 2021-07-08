@@ -1,0 +1,9 @@
+# dump for exaple
+mysqldump exaple > Documents\sql\mysql_dump\exaple.sql
+
+# создаем новую БД sample
+mysql
+CREATE DATABASE sample
+# разворачиваем дамп в созданной БД
+
+sample < Documents\sql\mysql_dump\exaple.sql
